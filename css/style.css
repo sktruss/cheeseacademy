@@ -1,0 +1,279 @@
+/* ここから下に記載していく */
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+body{
+    width: 1200px;
+    margin:auto;
+    font-family: "Noto Sans Japanese";  /* フォントを指定 */
+}
+
+
+/* ヘッダー */
+.header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.hfloat{
+    display: flex;
+}
+
+
+
+.logo{
+    width: 400px;
+    text-align: center;
+    align-content: center;
+}
+
+
+.header-fonts-field{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.header-fonts{
+    
+    font-size: 21px;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* トップ画像 */
+
+.container{
+    width: 1200px;
+    height: 500px;
+    background-image:url(../img/mainbg.png);
+    align-content: center;
+    border-radius: 60px;
+}
+
+.topic {
+    width: 1200px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;;
+    color: white
+    ;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+h3 { font-size: 30px;
+    color: orange;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+
+
+h4 { 
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+
+h5 {
+    font-size: 24px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+
+h6 {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 15px;
+}
+
+.text{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+    line-height: 24px;
+}
+
+
+
+.box{
+    background-color:#fafafa ;
+    width: 600px;
+    height: 406px;
+    border-radius: 60px;
+}
+
+
+.box2 {
+    width: 480px;
+    padding-left: 50px;
+    height: 400px;
+    align-content: center;
+}
+
+
+.cardfloat {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card {
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #b5b5b5;
+    border-radius: 6px;
+    display: inline-block;
+    transition: .3s;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.card:hover { 
+    transform: scale(103%);
+}
+
+.bold {font-weight: bold;}
+
+
+.chuo {
+    text-align: center;
+}
+
+
+.adress-table {
+    margin:0 auto;
+    padding-left: 300px;
+}
+
+
+
+button {
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    font-weight: bold;
+    background: #fff;
+    border: 3px solid #ed6409;
+    box-shadow: 0 5px 0 #ed6409;
+    border-radius: 6px;
+    display: inline-block;
+    transition: .3s;
+    text-align: center;
+    align-content: center;
+    background-color: orange;
+    color: white;
+}
+
+button:hover {
+    transform: translateY(5px);
+    box-shadow: 0 0 0 #333;
+  }
+
+
+.access {
+background-color: #fafafa;
+border-radius: 60px;
+}
+
+.space24 {
+    padding-top: 24px;
+}
+
+.space60{
+    padding-top: 60px;
+}
+
+.space30 {
+    padding-top: 30px;
+}
+
+
+.space140 {
+    padding-top: 140px;
+}
+
+.space10 {
+    padding-top: 10px;
+}
+
+tr {
+    height: 50px;
+}
+
+th  {
+    text-align-last: left;
+    width: 250px;
+}
+
+
+/* 問い合わせフォーム */
+
+.tablecontact {
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange
+    ;
+}
+
+
+
+.contact-form{
+    width: 508px;
+    margin:0 auto;
+    
+}
+
+.colum-height {
+    height: 50px;
+}
+
+.align-contents {
+    align-content: center;
+}
+
+.inputtext {
+    width: 280px;
+    height: 22px;
+}
+
+
+.selectbox {
+    width: 288px;
+    height: 30px;
+}
+
+.description {
+    width: 288px;
+    height: 110px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #333;
+    color: lightgray;
+    font-size: 12px;
+}
